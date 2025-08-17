@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
+  m_Name: Aloe juvenna
+  m_EditorClassIdentifier: 
+  nome: Aloe juvenna
+  foto: {fileID: 21300000, guid: 98c661290b5497b489f48f3ad7b4964c, type: 3}
+  descricao: Suculenta de crescimento em touceira, folhas verdes com manchas claras
+    e espinhos delicados.
+  iluminacao: Prefere  meia-sombra.
+  rega: Regar pouco, deixar o substrato secar.
+  substrato: Mistura arenosa, ideal para cactos/suculentas.

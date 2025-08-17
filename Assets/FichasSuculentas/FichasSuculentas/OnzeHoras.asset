@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
+  m_Name: OnzeHoras
+  m_EditorClassIdentifier: 
+  nome: Portulaca grandiflora
+  foto: {fileID: 21300000, guid: 241721fca2c8e044386661a840acfdec, type: 3}
+  descricao: "Planta rasteira com flores coloridas que abrem geralmente no final
+    da manh\xE3. Muito usada em jardins e vasos pendentes."
+  iluminacao: Sol pleno.
+  rega: Regar regularmente, mas deixar o solo secar levemente entre as regas.
+  substrato: "Solo leve e bem drenado, tolera at\xE9 terrenos mais arenosos."

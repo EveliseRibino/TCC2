@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
+  m_Name: RaboDeGato
+  m_EditorClassIdentifier: 
+  nome: Acalypha reptans
+  foto: {fileID: 21300000, guid: c9e053ee48bb6534297e45892a54a6ed, type: 3}
+  descricao: Planta pendente com flores felpudas vermelhas que lembram rabos de gato.
+  iluminacao: Meia-sombra a sol pleno.
+  rega: "Regar moderadamente, deixando o substrato secar entre uma rega e outra.
+    Evitar excesso de \xE1gua para n\xE3o apodrecer as ra\xEDzes."
+  substrato: "Solo bem drenado, pr\xF3prio para cactos e suculentas. Pode usar mistura
+    de terra comum com areia grossa e perlita para facilitar a drenagem."
