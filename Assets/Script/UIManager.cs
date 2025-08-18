@@ -42,4 +42,12 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene("MenuPrincipal");
     }
+
+    public void TocarSomDeClique()
+    {
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.TocarSomClique();
+        }
+    }
 }

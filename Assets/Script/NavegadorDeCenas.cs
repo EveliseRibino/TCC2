@@ -3,9 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class NavegadorDeCenas : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void CarregarCena(string nomeDaCena)
     {
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.TocarSomTransicao();
+        }
         SceneManager.LoadScene(nomeDaCena);
+    }
+
+    public void TocarSomDeClique()
+    {
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.TocarSomClique();
+        }
     }
 }
