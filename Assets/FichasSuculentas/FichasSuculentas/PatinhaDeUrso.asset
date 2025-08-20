@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
+  m_Name: PatinhaDeUrso
+  m_EditorClassIdentifier: 
+  nome: Cotyledon tomentosa (Patinha-de-Urso)
+  foto: {fileID: 0}
+  descricao: "Suas folhas s\xE3o gordinhas, verdes e aveludadas, com pequenas \"garrinhas\"
+    ou \"dentes\" marrom-avermelhados na ponta, que se assemelham perfeitamente \xE0
+    pata de um ursinho. \xC9 uma planta compacta e de crescimento lento."
+  iluminacao: "Adora bastante luz! Precisa de pelo menos 4 a 6 horas de luz solar
+    para manter sua forma compacta e a colora\xE7\xE3o avermelhada das \"garrinhas\"."
+  rega: "Suas folhas gordinhas s\xE3o grandes reservat\xF3rios de \xE1gua. Regue
+    apenas quando o substrato estiver completamente seco. \xC9 muito suscet\xEDvel
+    ao apodrecimento por excesso de \xE1gua."
+  substrato: " Drenagem \xE9 a prioridade m\xE1xima. Use um substrato para cactos
+    e suculentas com material extra para aera\xE7\xE3o, como perlita ou carv\xE3o
+    triturado."
+  dicaCuriosa: "As folhas da Patinha-de-Urso s\xE3o delicadas e podem cair com facilidade.
+    No entanto, cada folhinha que cai tem o potencial de gerar uma nova planta!"

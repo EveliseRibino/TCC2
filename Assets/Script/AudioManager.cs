@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +16,10 @@ public class AudioManager : MonoBehaviour
     [Header("Música de Fundo")]
     public AudioClip musicaDoMenu;
     public AudioClip musicaDoQuiz;
+
+    [Header("Gerenciador de Dicas")]
+    public List<SuculentaData> todasAsSuculentas;
+    private List<string> dicasDisponiveis = new List<string>();
 
     private AudioSource sfxSource;
     private AudioSource musicSource;
@@ -35,6 +40,8 @@ public class AudioManager : MonoBehaviour
         sfxSource = gameObject.AddComponent<AudioSource>();
         musicSource = gameObject.AddComponent<AudioSource>();
         musicSource.loop = true;
+
+        ResetarDicasDisponiveis();
     }
 
     private void OnEnable()
@@ -77,28 +84,39 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void TocarSomClique()
+    public void TocarSomClique() { if (somDeClique != null) sfxSource.PlayOneShot(somDeClique); }
+    public void TocarSomAcerto() { if (somDeAcerto != null) sfxSource.PlayOneShot(somDeAcerto); }
+    public void TocarSomErro() { if (somDeErro != null) sfxSource.PlayOneShot(somDeErro); }
+    public void TocarSomVitoria() { if (somDeVitoria != null) sfxSource.PlayOneShot(somDeVitoria); }
+    public void TocarSomTransicao() { if (somDeTransicao != null) sfxSource.PlayOneShot(somDeTransicao); }
+
+    public void ResetarDicasDisponiveis()
     {
-        if (somDeClique != null) sfxSource.PlayOneShot(somDeClique);
+        dicasDisponiveis.Clear();
+        foreach (SuculentaData suculenta in todasAsSuculentas)
+        {
+            if (!string.IsNullOrEmpty(suculenta.dicaCuriosa))
+            {
+                dicasDisponiveis.Add(suculenta.dicaCuriosa);
+            }
+        }
     }
 
-    public void TocarSomAcerto()
+    public string GetDicaAleatoria()
     {
-        if (somDeAcerto != null) sfxSource.PlayOneShot(somDeAcerto);
-    }
+        if (dicasDisponiveis.Count == 0)
+        {
+            ResetarDicasDisponiveis();
+        }
 
-    public void TocarSomErro()
-    {
-        if (somDeErro != null) sfxSource.PlayOneShot(somDeErro);
-    }
+        if (dicasDisponiveis.Count == 0)
+        {
+            return "Cadastre mais dicas curiosas nas fichas de suculentas!";
+        }
 
-    public void TocarSomVitoria()
-    {
-        if (somDeVitoria != null) sfxSource.PlayOneShot(somDeVitoria);
-    }
-
-    public void TocarSomTransicao()
-    {
-        if (somDeTransicao != null) sfxSource.PlayOneShot(somDeTransicao);
+        int indexAleatorio = Random.Range(0, dicasDisponiveis.Count);
+        string dica = dicasDisponiveis[indexAleatorio];
+        dicasDisponiveis.RemoveAt(indexAleatorio);
+        return dica;
     }
 }

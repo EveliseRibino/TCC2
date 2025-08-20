@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
   m_Name: RaboDeGato
   m_EditorClassIdentifier: 
-  nome: Acalypha reptans
+  nome: Cleistocactus winteri
   foto: {fileID: 21300000, guid: c9e053ee48bb6534297e45892a54a6ed, type: 3}
-  descricao: Planta pendente com flores felpudas vermelhas que lembram rabos de gato.
-  iluminacao: Meia-sombra a sol pleno.
-  rega: "Regar moderadamente, deixando o substrato secar entre uma rega e outra.
-    Evitar excesso de \xE1gua para n\xE3o apodrecer as ra\xEDzes."
-  substrato: "Solo bem drenado, pr\xF3prio para cactos e suculentas. Pode usar mistura
-    de terra comum com areia grossa e perlita para facilitar a drenagem."
+  descricao: "Conhecido como Rabo-de-Gato, este cacto forma m\xFAltiplos caules cil\xEDndricos
+    cobertos por espinhos dourados e flex\xEDveis. Inicialmente, os caules crescem
+    para cima. Com o tempo e o peso, eles se arqueiam e se tornam pendentes, mas
+    com uma certa rigidez, criando um efeito de cascata escultural."
+  iluminacao: " Ama sol pleno! Para que seus espinhos mantenham a cor dourada intensa
+    e para que ele flores\xE7a, precisa de v\xE1rias horas de luz solar direta por
+    dia."
+  rega: "Como um cacto de deserto, \xE9 muito resistente \xE0 seca. Regue abundantemente,
+    mas apenas quando o substrato estiver completamente seco. No inverno, reduza
+    drasticamente a rega."
+  substrato: "A drenagem precisa ser m\xE1xima. Um substrato espec\xEDfico para cactos,
+    com bastante areia grossa e pedriscos, \xE9 fundamental."
+  dicaCuriosa: "Suas flores s\xE3o tubulares, de cor salm\xE3o ou laranja, e ficam
+    semi-fechadas. Essa forma \xE9 uma adapta\xE7\xE3o para a poliniza\xE7\xE3o por
+    beija-flores, que s\xE3o atra\xEDdos pela cor vibrante."

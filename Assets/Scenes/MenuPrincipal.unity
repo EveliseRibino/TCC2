@@ -1095,6 +1095,54 @@ PrefabInstance:
       propertyPath: somDeTransicao
       value: 
       objectReference: {fileID: 8300000, guid: 9a213563387f0f245840dfe8f6828cd1, type: 3}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: ba5b83390833d574f81e5891ccf5b404, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: a8abc541599eff543a53f0b51403a10e, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1dfb1f47c39198f4081e2356de0e4c68, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: feb2aefc8f8210f4cb19ccbedafc5fd0, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: defee1e4b9d2c0c45856f2dfa2512fd1, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: fa0e3af95483dcb4b8baa448cc160dbf, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0fde28940ae3a874ba007e22b1185d7e, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: fb0b85349c03ee44dbfef9bae5d56c7b, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7c6c62e016528f245b1b6d1f8af107ae, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8798d9421d779c04a8059016c4b81255, type: 2}
+    - target: {fileID: 656370941983241897, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
+      propertyPath: todasAsSuculentas.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: d1db1c628e4717246b302a2d08688b9b, type: 2}
     - target: {fileID: 8406860513487835399, guid: e5c1f0fe497ae7f458afb8138b5a0cc4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 271.41467

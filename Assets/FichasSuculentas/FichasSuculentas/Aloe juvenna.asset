@@ -14,8 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nome: Aloe juvenna
   foto: {fileID: 21300000, guid: 98c661290b5497b489f48f3ad7b4964c, type: 3}
-  descricao: Suculenta de crescimento em touceira, folhas verdes com manchas claras
-    e espinhos delicados.
-  iluminacao: Prefere  meia-sombra.
-  rega: Regar pouco, deixar o substrato secar.
-  substrato: Mistura arenosa, ideal para cactos/suculentas.
+  descricao: "Conhecida como Aloe-Tigre-An\xE3, esta pequena not\xE1vel vem do Qu\xEAnia.
+    Forma colunas empilhadas de folhas triangulares, verdes e carnudas, salpicadas
+    de manchas brancas que lembram dentes. Conforme cresce, seus caules se ramificam
+    a partir da base, criando uma touceira densa e escultural."
+  iluminacao: "Prefere locais bem iluminados, com muita luz indireta (claridade).
+    Embora tolere o sol fraco da manh\xE3, a exposi\xE7\xE3o prolongada ao sol direto
+    e forte pode causar queimaduras, deixando suas folhas com tons amarronzados.
+    \xC9 uma excelente planta para ambientes internos perto de janelas com luz filtrada."
+  rega: "Espere o substrato secar completamente entre as regas. No inverno, reduza
+    drasticamente a frequ\xEAncia. O excesso de \xE1gua \xE9 seu principal inimigo,
+    podendo causar o apodrecimento das ra\xEDzes."
+  substrato: "Necessita de um solo com drenagem impec\xE1vel. Uma mistura ideal combina
+    terra vegetal com uma grande por\xE7\xE3o de material inerte, como areia grossa,
+    perlita ou pedriscos."
+  dicaCuriosa: "A Aloe juvenna \xE9 frequentemente confundida com a Haworthia, devido
+    \xE0s suas manchas brancas. Uma forma de diferenciar \xE9 que as folhas do Aloe
+    geralmente crescem em colunas ou rosetas mais abertas."

@@ -14,12 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nome: "Crassula ovata \u2018Gollum\u2019 "
   foto: {fileID: 21300000, guid: 244712b64c6c08745a1eb3f250dcea01, type: 3}
-  descricao: "Variedade curiosa da Crassula ovata, com folhas suculentas verdes em
-    formato tubular que lembram as orelhas do personagen Shreck. Muito usada como
-    planta ornamental e considerada s\xEDmbolo de prosperidade."
-  iluminacao: Prefere sol pleno ou meia-sombra bem iluminada. Quanto mais sol, mais
-    compacta e avermelhada nas pontas ficam as folhas.
-  rega: "Regar abundantemente, deixando o substrato secar entre uma rega e outra.
-    Evitar excesso de \xE1gua para n\xE3o apodrecer as ra\xEDzes."
-  substrato: "Solo bem drenado, pr\xF3prio para cactos e suculentas. Pode usar mistura
-    de terra comum com areia grossa e perlita para facilitar a drenagem."
+  descricao: "Com um nome inspirado no famoso personagem, a Orelha de Shrek \xE9
+    inconfund\xEDvel. Suas folhas s\xE3o tubulares, com uma ponta c\xF4ncava que
+    se assemelha a uma ventosa. A cor \xE9 um verde vibrante que pode ganhar bordas
+    avermelhadas quando exposta a bastante sol, um sinal de \"estresse\" feliz. Tem
+    uma estrutura que lembra um pequeno bonsai."
+  iluminacao: "Ama o sol! Precisa de pelo menos 4 a 6 horas de luz solar direta por
+    dia para manter sua forma compacta e suas cores vibrantes. Se cultivada em ambientes
+    internos, precisa ficar na janela mais ensolarada poss\xEDvel. A falta de sol
+    causa estiolamento e perda da colora\xE7\xE3o avermelhada."
+  rega: "\xC9 extremamente tolerante \xE0 seca. Armazena muita \xE1gua em suas folhas
+    tubulares. Deixe o solo secar completamente (e permanecer seco por alguns dias)
+    antes de regar novamente. No inverno, as regas devem ser muito espor\xE1dicas."
+  substrato: "Exige drenagem m\xE1xima. Um substrato espec\xEDfico para cactos e
+    suculentas, com adi\xE7\xE3o extra de areia grossa ou perlita, \xE9 perfeito.
+    Vasos de barro s\xE3o uma \xF3tima op\xE7\xE3o, pois ajudam o solo a secar mais
+    r\xE1pido."
+  dicaCuriosa: "A \"Orelha de Shrek\" \xE9 um cultivar da famosa Planta-Jade (Crassula
+    ovata). Na cultura do Feng Shui, a Planta-Jade \xE9 associada \xE0 prosperidade
+    e boa sorte. Ter uma \"Orelha de Shrek\" em casa, portanto, \xE9 ter uma vers\xE3o
+    divertida e moderna deste amuleto da sorte."

@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
   m_Name: OrelhaDeGato
   m_EditorClassIdentifier: 
-  nome: Kalanchoe tomentosa
+  nome: Kalanchoe tomentosa (Orelha-de-Gato)
   foto: {fileID: 21300000, guid: 659d2fdf9ddc8914c92193ef69a73016, type: 3}
-  descricao: Suculenta com folhas aveludadas cinza-esverdeadas e bordas marrons,
-    lembrando a orelha de um gato
-  iluminacao: Sol pleno ou meia-sombra clara.
-  rega: Moderada, deixar o solo secar entre regas.
+  descricao: "A Orelha-de-Gato \xE9 uma das suculentas mais cativantes ao toque.
+    Suas folhas ovais e carnudas s\xE3o inteiramente cobertas por uma fina camada
+    de pelos brancos e aveludados. As pontas das folhas possuem pequenas manchas
+    marrons, que se assemelham \xE0s orelhas de um gato."
+  iluminacao: "Gosta de muita luz indireta e brilhante, mas tamb\xE9m aprecia algumas
+    horas de sol direto e fraco (manh\xE3 ou final da tarde)."
+  rega: "Necessita de um substrato extremamente aerado e com \xF3tima drenagem."
   substrato: "Mistura arenosa e bem drenada, t\xEDpica para cactos e suculentas."
+  dicaCuriosa: "Os \"pelos\" (tricomas) que cobrem as folhas n\xE3o s\xE3o apenas
+    para beleza. Eles s\xE3o uma adapta\xE7\xE3o inteligente para reduzir a perda
+    de \xE1gua e refletir parte da luz solar intensa."

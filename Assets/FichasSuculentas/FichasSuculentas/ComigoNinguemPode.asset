@@ -12,10 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
   m_Name: ComigoNinguemPode
   m_EditorClassIdentifier: 
-  nome: Dieffenbachia seguine
+  nome: "Dieffenbachia seguine (Comigo-ningu\xE9m-pode)"
   foto: {fileID: 21300000, guid: 30decb28327c03d438041dedf984bcba, type: 3}
-  descricao: "Nome popular Comigo Ninguem Pode. Planta de folhagem ornamental, muito
-    comum em interiores, mas t\xF3xica se ingerida."
-  iluminacao: Meia-sombra, luz indireta.
-  rega: "Gosta de solo levemente \xFAmido, sem encharcar."
-  substrato: "Rico em mat\xE9ria org\xE2nica, leve e drenado."
+  descricao: "ALERTA: A Comigo-ningu\xE9m-pode \xE9 uma planta tropical exuberante,
+    amada por suas folhas grandes, verdes e manchadas de branco ou creme. \xC9 uma
+    planta de interior muito popular, que traz um toque de selva para a decora\xE7\xE3o,
+    mas seus cuidados s\xE3o diferentes dos de uma suculenta."
+  iluminacao: O oposto de uma suculenta de deserto. Ela prefere luz indireta ou sombra
+    parcial. O sol direto queima suas folhas rapidamente, deixando manchas marrons
+    e secas. Ideal para ambientes internos bem iluminados, mas longe da janela.
+  rega: "Adora umidade! Seu solo deve ser mantido levemente \xFAmido, mas nunca encharcado.
+    Ao contr\xE1rio das suculentas, ela n\xE3o gosta que o substrato seque completamente.
+    Gosta tamb\xE9m de ter suas folhas borrifadas com \xE1gua."
+  substrato: "Precisa de um solo rico em mat\xE9ria org\xE2nica e que retenha um
+    pouco de umidade, como uma mistura de terra vegetal, h\xFAmus de minhoca e um
+    pouco de areia para n\xE3o compactar."
+  dicaCuriosa: "EXTREMAMENTE T\xD3XICA! O nome \"Comigo-ningu\xE9m-pode\" vem de
+    sua toxicidade. A seiva da planta cont\xE9m cristais de oxalato de c\xE1lcio
+    que, se ingeridos, causam incha\xE7o imediato na boca e na garganta, podendo
+    levar \xE0 asfixia. Mantenha-a longe de crian\xE7as e animais de estima\xE7\xE3o."

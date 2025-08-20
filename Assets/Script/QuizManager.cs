@@ -29,6 +29,7 @@ public class QuizManager : MonoBehaviour
 
     [Header("Conexões do Painel de Recompensa")]
     public GameObject painelRecompensa;
+    public TextMeshProUGUI textoDicaRecompensa;
 
     void Awake()
     {
@@ -150,6 +151,13 @@ public class QuizManager : MonoBehaviour
     public void MostrarRecompensa()
     {
         if (AudioManager.instance != null) AudioManager.instance.TocarSomClique();
+
+        if (AudioManager.instance != null && textoDicaRecompensa != null)
+        {
+            string dica = AudioManager.instance.GetDicaAleatoria();
+            textoDicaRecompensa.text = "Você Sabia?\n\n" + dica;
+        }
+
         painelFimDeJogo.SetActive(false);
         painelRecompensa.SetActive(true);
     }
@@ -160,8 +168,6 @@ public class QuizManager : MonoBehaviour
         painelRecompensa.SetActive(false);
         painelFimDeJogo.SetActive(true);
     }
-
-
 
     public void VoltarParaMenu()
     {

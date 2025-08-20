@@ -14,8 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nome: Portulaca grandiflora
   foto: {fileID: 21300000, guid: 241721fca2c8e044386661a840acfdec, type: 3}
-  descricao: "Planta rasteira com flores coloridas que abrem geralmente no final
-    da manh\xE3. Muito usada em jardins e vasos pendentes."
-  iluminacao: Sol pleno.
-  rega: Regar regularmente, mas deixar o solo secar levemente entre as regas.
-  substrato: "Solo leve e bem drenado, tolera at\xE9 terrenos mais arenosos."
+  descricao: "A Onze-horas \xE9 uma explos\xE3o de cores. Embora tenha folhas carnudas
+    e suculentas, \xE9 mais conhecida por suas flores espetaculares, que parecem
+    feitas de seda e v\xEAm em tons de rosa, vermelho, laranja, amarelo e branco.
+    \xC9 uma planta rasteira, perfeita para cobrir o solo, bordaduras ou para vasos
+    e jardineiras."
+  iluminacao: "O nome j\xE1 diz tudo! Suas flores se abrem com a luz do sol forte,
+    geralmente por volta das 11 da manh\xE3, e se fecham no final da tarde ou em
+    dias nublados. Precisa de sol pleno e direto por v\xE1rias horas para florescer
+    abundantemente."
+  rega: "Por ser uma planta de flora\xE7\xE3o intensa e crescimento r\xE1pido, ela
+    aprecia regas um pouco mais frequentes que outras suculentas, especialmente durante
+    o ver\xE3o. Regue bem sempre que o solo estiver seco, mas evite encharcamento."
+  substrato: "Tolera solos pobres, mas precisa que sejam muito bem drenados. Qualquer
+    substrato para jardim misturado com areia j\xE1 \xE9 suficiente para ela prosperar."
+  dicaCuriosa: "A Onze-horas \xE9 uma planta \"inteligente\". O mecanismo de abrir
+    e fechar as flores de acordo com a intensidade da luz solar (um fen\xF4meno chamado
+    nictinastia) \xE9 uma estrat\xE9gia para proteger seu p\xF3len da umidade noturna
+    e otimizar a poliniza\xE7\xE3o."

@@ -2879,6 +2879,7 @@ MonoBehaviour:
   textoPontuacaoFinalUI: {fileID: 1204312644}
   botaoRecompensaUI: {fileID: 206177360}
   painelRecompensa: {fileID: 2085656169}
+  textoDicaRecompensa: {fileID: 939242453}
 --- !u!4 &1618728933
 Transform:
   m_ObjectHideFlags: 0

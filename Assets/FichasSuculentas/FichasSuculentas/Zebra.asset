@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
+  m_Name: Zebra
+  m_EditorClassIdentifier: 
+  nome: Haworthiopsis attenuata (Zebra / Haworthia)
+  foto: {fileID: 0}
+  descricao: "A Planta-Zebra \xE9 uma das suculentas mais ic\xF4nicas. Forma uma
+    roseta de folhas pontudas, firmes e de cor verde-escura. O que a torna inconfund\xEDvel
+    s\xE3o as listras e \"verrugas\" brancas na parte externa das folhas."
+  iluminacao: " \xC9 uma das suculentas mais tolerantes a ambientes com menos luz.
+    Prospera em luz indireta brilhante e n\xE3o gosta de sol direto, que pode queimar
+    suas folhas. Perfeita para parapeitos de janelas sem sol forte."
+  rega: "Regue moderadamente, esperando o solo secar completamente entre uma rega
+    e outra. Evite deixar \xE1gua acumulada no centro da roseta."
+  substrato: ' Necessita de um substrato com drenagem excelente.'
+  dicaCuriosa: "\xC9 frequentemente confundida com a Haworthia fasciata. Uma forma
+    f\xE1cil de diferenciar \xE9 tocar a parte interna da folha. Na attenuata (a
+    mais comum), a parte interna \xE9 lisa ou levemente \xE1spera. Na fasciata (mais
+    rara), a parte interna \xE9 completamente lisa."

@@ -12,11 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5807e995e00db8a46b47424785314154, type: 3}
   m_Name: RaboDeTatu
   m_EditorClassIdentifier: 
-  nome: Haworthia Limifolia
+  nome: Haworthia limifolia (Rabo-de-Tatu)
   foto: {fileID: 21300000, guid: ad5eaf812c0f8314491d7a9cd7b975ae, type: 3}
-  descricao: "Haworthia Limifolia \xE9 o nome cient\xEDfico da suculenta Rabo de
-    tatu(nome popular) "
-  iluminacao: "gosta de boa ilumina\xE7\xE3o por\xE9m n\xE3o se adapta ao sol forte"
-  rega: Regar abundantemente esperar secar bem o substrato para uma nova rega
-  substrato: "como a maioria das suculentas, o ideal para ela \xE9 um substrato dren\xE1vel, 
-    etc..."
+  descricao: "Conhecida popularmente como Rabo-de-Tatu, esta suculenta forma uma
+    roseta compacta e de aspecto r\xEDgido. Suas folhas s\xE3o triangulares, grossas
+    e de um verde-escuro profundo, com cristas transversais que lhe d\xE3o uma textura
+    \xE1spera e \xFAnica, lembrando a casca de um tatu. \xC9 uma planta de crescimento
+    lento, perfeita para cole\xE7\xF5es e arranjos em pequenos espa\xE7os."
+  iluminacao: "\xC9 uma planta ideal para ambientes internos. Prospera em locais
+    com boa luminosidade natural (meia-sombra), mas sem a incid\xEAncia de sol direto,
+    que pode queimar suas folhas e alterar sua cor. A luz filtrada de uma janela
+    \xE9 perfeita."
+  rega: "Siga o ciclo \"secar para regar\". Espere o substrato estar completamente
+    seco antes de fornecer \xE1gua abundantemente, at\xE9 que escorra pelo fundo
+    do vaso. Sua capacidade de armazenar \xE1gua a torna muito tolerante a per\xEDodos
+    de seca."
+  substrato: "Um substrato pronto para suculentas e cactos \xE9 uma excelente escolha.
+    O mais importante \xE9 que seja leve e poroso, garantindo uma drenagem r\xE1pida
+    para evitar o apodrecimento das ra\xEDzes."
+  dicaCuriosa: "O nome \"limifolia\" vem do latim e significa \"folhas de lima\",
+    uma refer\xEAncia \xE0 sua textura \xE1spera. Ela produz uma longa haste floral
+    (de at\xE9 35 cm) com pequenas e delicadas flores brancas, um contraste surpreendente
+    com a apar\xEAncia robusta da planta."
