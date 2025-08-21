@@ -1161,7 +1161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67a965a67b835704990dce14d9255087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoDeDuracao: 20
+  tempoDeDuracao: 5
   nomeDaCena: MenuPrincipal
 --- !u!82 &1782279561
 AudioSource:

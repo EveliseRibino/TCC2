@@ -12,10 +12,8 @@ public class UIManager : MonoBehaviour
     [Header("Conexões da UI de Detalhes")]
     public Image fotoSuculenta;
     public TextMeshProUGUI nomeSuculenta;
-    public TextMeshProUGUI descricaoSuculenta;
-    public TextMeshProUGUI luzSuculenta;
-    public TextMeshProUGUI regaSuculenta;
-    public TextMeshProUGUI soloSuculenta;
+    public TextMeshProUGUI textoDetalhesCompleto;
+
     public ScrollRect scrollRectDetalhes;
 
     void Start()
@@ -33,10 +31,15 @@ public class UIManager : MonoBehaviour
 
         fotoSuculenta.sprite = suculenta.foto;
         nomeSuculenta.text = suculenta.nome;
-        descricaoSuculenta.text = suculenta.descricao;
-        luzSuculenta.text = "Iluminação:\n" + suculenta.iluminacao;
-        regaSuculenta.text = "Rega:\n" + suculenta.rega;
-        soloSuculenta.text = "Substrato:\n" + suculenta.substrato;
+
+        string textoCompleto = "";
+
+        textoCompleto += $"<b>Descrição:</b>\n{suculenta.descricao}\n\n";
+        textoCompleto += $"<b>Iluminação:</b>\n{suculenta.iluminacao}\n\n";
+        textoCompleto += $"<b>Rega:</b>\n{suculenta.rega}\n\n";
+        textoCompleto += $"<b>Substrato:</b>\n{suculenta.substrato}";
+
+        textoDetalhesCompleto.text = textoCompleto;
 
         painelDetalhes.SetActive(true);
         painelListaSuculentas.SetActive(false);

@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class SplashManager : MonoBehaviour
 {
     // Tempo em segundos que a splash screen vai durar
-    public float tempoDeDuracao = 20f;
+    public float tempoDeDuracao = 5f;
 
     // O nome da cena para carregar
     public string nomeDaCena = "MenuPrincipal";
