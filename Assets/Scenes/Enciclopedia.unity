@@ -754,10 +754,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1597468007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: -186.01111}
-  m_SizeDelta: {x: 200, y: 2357.3738}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -7, y: 656}
+  m_SizeDelta: {x: 0, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095212979
 MonoBehaviour:
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -138.96933, y: -82.89606, z: -78.91031, w: -302.3136}
+  m_margin: {x: 38.399048, y: -898.7156, z: 36.35327, w: -1450.5326}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -890,7 +890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: 1130}
+  m_AnchoredPosition: {x: 17, y: 1075}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1116607955
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -116.86435, y: 0, z: -74.79318, w: 0}
+  m_margin: {x: -130.14789, y: -48.81607, z: -91.397644, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1545,8 +1545,20 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4267194887753247307, guid: 1c902895564f949458abac0bc6fe963b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267194887753247307, guid: 1c902895564f949458abac0bc6fe963b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267194887753247307, guid: 1c902895564f949458abac0bc6fe963b, type: 3}
       propertyPath: m_SizeDelta.y
       value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267194887753247307, guid: 1c902895564f949458abac0bc6fe963b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0001373291
       objectReference: {fileID: 0}
     - target: {fileID: 4267194887753247307, guid: 1c902895564f949458abac0bc6fe963b, type: 3}
       propertyPath: m_AnchoredPosition.y
