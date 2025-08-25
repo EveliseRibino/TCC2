@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    [Header("Conexões do Menu Lateral")]
+    public GameObject painelMenuLateral;
+
     [Header("Conexões da Tela Principal")]
     public Image imagemPlantaDiaUI; // Arraste aqui a Imagem da Planta do Dia
     public TextMeshProUGUI textoAbaixoDaPlantaUI; // Arraste o texto "Toque para ver a dica"
@@ -24,9 +27,30 @@ public class MenuManager : MonoBehaviour
             painelPopupDica.SetActive(false);
         }
 
+        if (painelMenuLateral != null)
+        {
+            painelMenuLateral.SetActive(false);
+        }
+
         SortearPlantaDoDia();
     }
 
+    // --- FUNÇÃO PARA O BOTÃO DO MENU SANDUÍCHE ---
+    public void ToggleMenuLateral()
+    {
+        if (AudioManager.instance != null) AudioManager.instance.TocarSomClique();
+
+        if (painelMenuLateral != null)
+        {
+            // Pega o estado atual do painel (está ativo ou inativo?)
+            bool estaAtivo = painelMenuLateral.activeSelf;
+
+            // Inverte o estado: se estava ativo, desativa. Se estava inativo, ativa.
+            painelMenuLateral.SetActive(!estaAtivo);
+        }
+
+        if (painelPopupDica != null) painelPopupDica.SetActive(false);
+    }
     void SortearPlantaDoDia()
     {
         if (AudioManager.instance == null || AudioManager.instance.todasAsSuculentas.Count == 0)
@@ -54,6 +78,8 @@ public class MenuManager : MonoBehaviour
         if (plantaSorteada == null) return;
 
         if (AudioManager.instance != null) AudioManager.instance.TocarSomClique();
+
+        if (painelMenuLateral != null) painelMenuLateral.SetActive(false);
 
         // Preenche o texto do pop-up com a dica da planta que foi sorteada
         if (textoDicaDoDiaUI != null)
