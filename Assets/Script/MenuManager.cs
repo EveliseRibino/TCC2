@@ -9,66 +9,67 @@ public class MenuManager : MonoBehaviour
     public GameObject painelMenuLateral;
 
     [Header("Conexões da Tela Principal")]
-    public Image imagemPlantaDiaUI; // Arraste aqui a Imagem da Planta do Dia
-    public TextMeshProUGUI textoAbaixoDaPlantaUI; // Arraste o texto "Toque para ver a dica"
-    public Button botaoFotoPlantaDia; // Arraste a própria Imagem da Planta (que tem o componente Button)
+    public Image imagemPlantaDiaUI;
+    public TextMeshProUGUI textoAbaixoDaPlantaUI;
+    public Button botaoFotoPlantaDia;
 
     [Header("Conexões do Pop-up da Dica")]
-    public GameObject painelPopupDica; // Arraste o PainelPopupDica
-    public TextMeshProUGUI textoDicaDoDiaUI; // Arraste o texto que está DENTRO do pop-up
+    public GameObject painelPopupDica;
+    public TextMeshProUGUI textoDicaDoDiaUI;
 
-    private SuculentaData plantaSorteada; // Para guardar a planta que foi sorteada
+    private SuculentaData plantaSorteada;
+    private bool menuAberto = false;
 
     void Start()
     {
-        // Garante que o pop-up comece sempre fechado
-        if (painelPopupDica != null)
-        {
-            painelPopupDica.SetActive(false);
-        }
-
-        if (painelMenuLateral != null)
-        {
-            painelMenuLateral.SetActive(false);
-        }
+        if (painelPopupDica != null) painelPopupDica.SetActive(false);
+        if (painelMenuLateral != null) painelMenuLateral.SetActive(false);
 
         SortearPlantaDoDia();
     }
 
-    // --- FUNÇÃO PARA O BOTÃO DO MENU SANDUÍCHE ---
+    // --- FUNÇÃO PARA O BOTÃO DO MENU SANDUÍCHE COM ANIMAÇÃO ---
     public void ToggleMenuLateral()
     {
         if (AudioManager.instance != null) AudioManager.instance.TocarSomClique();
 
-        if (painelMenuLateral != null)
-        {
-            // Pega o estado atual do painel (está ativo ou inativo?)
-            bool estaAtivo = painelMenuLateral.activeSelf;
+        RectTransform rt = painelMenuLateral.GetComponent<RectTransform>();
 
-            // Inverte o estado: se estava ativo, desativa. Se estava inativo, ativa.
-            painelMenuLateral.SetActive(!estaAtivo);
+        if (!menuAberto)
+        {
+            painelMenuLateral.SetActive(true);
+            rt.anchoredPosition = new Vector2(-600, 0);
+            LeanTween.moveX(rt, 0, 0.8f).setEaseOutExpo();
+            menuAberto = true;
+        }
+        else
+        {
+            LeanTween.moveX(rt, -600, 0.8f).setEaseInExpo().setOnComplete(() =>
+            {
+                painelMenuLateral.SetActive(false);
+            });
+            menuAberto = false;
         }
 
         if (painelPopupDica != null) painelPopupDica.SetActive(false);
     }
+
     void SortearPlantaDoDia()
     {
         if (AudioManager.instance == null || AudioManager.instance.todasAsSuculentas.Count == 0)
         {
-            // Se não houver plantas, desativa o botão e mostra uma mensagem padrão
             textoAbaixoDaPlantaUI.text = "Bem-vindo ao FLOReve!";
             if (botaoFotoPlantaDia != null) botaoFotoPlantaDia.interactable = false;
             return;
         }
 
-        // Pega a lista e sorteia uma planta
         var todasAsSuculentas = AudioManager.instance.todasAsSuculentas;
         int indexAleatorio = Random.Range(0, todasAsSuculentas.Count);
         plantaSorteada = todasAsSuculentas[indexAleatorio];
 
-        // Atualiza a imagem principal e o texto abaixo dela
         if (imagemPlantaDiaUI != null) imagemPlantaDiaUI.sprite = plantaSorteada.foto;
-        if (textoAbaixoDaPlantaUI != null) textoAbaixoDaPlantaUI.text = "Planta do Dia: " + plantaSorteada.nome + "\n(Toque para ver a dica)";
+        if (textoAbaixoDaPlantaUI != null)
+            textoAbaixoDaPlantaUI.text = "Planta do Dia: " + plantaSorteada.nome + "\n(Toque para ver a dica)";
     }
 
     // --- FUNÇÕES DOS BOTÕES ---
@@ -78,29 +79,18 @@ public class MenuManager : MonoBehaviour
         if (plantaSorteada == null) return;
 
         if (AudioManager.instance != null) AudioManager.instance.TocarSomClique();
-
         if (painelMenuLateral != null) painelMenuLateral.SetActive(false);
 
-        // Preenche o texto do pop-up com a dica da planta que foi sorteada
         if (textoDicaDoDiaUI != null)
-        {
             textoDicaDoDiaUI.text = "Você Sabia?\n\n" + plantaSorteada.dicaCuriosa;
-        }
 
-        // Mostra o painel pop-up
-        if (painelPopupDica != null)
-        {
-            painelPopupDica.SetActive(true);
-        }
+        if (painelPopupDica != null) painelPopupDica.SetActive(true);
     }
 
     public void FecharPopupDica()
     {
         if (AudioManager.instance != null) AudioManager.instance.TocarSomClique();
-        if (painelPopupDica != null)
-        {
-            painelPopupDica.SetActive(false);
-        }
+        if (painelPopupDica != null) painelPopupDica.SetActive(false);
     }
 
     // --- FUNÇÕES DE NAVEGAÇÃO DA BARRA DE RODAPÉ ---
@@ -114,7 +104,7 @@ public class MenuManager : MonoBehaviour
     public void IrParaMenuDeJogos()
     {
         if (AudioManager.instance != null) AudioManager.instance.TocarSomTransicao();
-        SceneManager.LoadScene("Quiz"); // Por enquanto vai direto para o Quiz
+        SceneManager.LoadScene("Quiz");
     }
 
     public void IrParaSobre()
